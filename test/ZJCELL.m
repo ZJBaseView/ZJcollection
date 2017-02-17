@@ -60,7 +60,8 @@
 //        self.contentView.layer.borderWidth = 1.0f;
 //        self.contentView.layer.borderColor = [UIColor whiteColor].CGColor;
         
-        
+        self.backgroundColor=[UIColor redColor];
+
         
         self.backgroundColor=[UIColor redColor];
     }
