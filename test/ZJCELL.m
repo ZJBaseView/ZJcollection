@@ -52,7 +52,7 @@
         discount.backgroundColor=[UIColor clearColor];
         discount.text=@"$300";
         discount.textColor=[UIColor colorWithRed:39.0/255 green:189.0/255 blue:181.0/255 alpha:1];
-        discount.numberOfLines = 0;
+        discount.numberOfLines = 1;
         [leftview addSubview:discount];
         [view addSubview:leftview];
         [self addSubview:view];
