@@ -51,6 +51,9 @@
         discount.frame=CGRectMake(100, 200, 100, 20);
         discount.backgroundColor=[UIColor clearColor];
         discount.text=@"$300";
+        discount.text=@"$300";
+        discount.text=@"$300";
+        discount.text=@"$300";
         discount.textColor=[UIColor colorWithRed:39.0/255 green:189.0/255 blue:181.0/255 alpha:1];
         discount.numberOfLines = 0;
         [leftview addSubview:discount];
