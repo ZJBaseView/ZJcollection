@@ -5,7 +5,7 @@
 //  Created by 郭剑聪 on 14-3-11.
 //  Copyright (c) 2014年 ZHAO. All rights reserved.
 //
-
+//我是大帅哥
 #import "ZJCELL.h"
 
 @implementation ZJCELL
@@ -51,8 +51,9 @@
         discount.frame=CGRectMake(100, 200, 100, 20);
         discount.backgroundColor=[UIColor clearColor];
         discount.text=@"$300";
+
         discount.textColor=[UIColor colorWithRed:39.0/255 green:189.0/255 blue:181.0/255 alpha:1];
-        discount.numberOfLines = 0;
+        discount.numberOfLines = 1;
         [leftview addSubview:discount];
         [view addSubview:leftview];
         [self addSubview:view];
@@ -60,7 +61,8 @@
 //        self.contentView.layer.borderWidth = 1.0f;
 //        self.contentView.layer.borderColor = [UIColor whiteColor].CGColor;
         
-        
+        self.backgroundColor=[UIColor redColor];
+
         
         self.backgroundColor=[UIColor redColor];
     }
